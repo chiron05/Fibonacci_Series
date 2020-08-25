@@ -1,0 +1,26 @@
+package demo;
+import java.util.*;
+
+public class Fibonachii_Series {
+
+	public static void main(String[] args) {
+		int temp=0;
+		System.out.println("Enter the number of fibonacci series you want??");
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
+		int a=0,b=1,c;
+		System.out.print(a+" "+b+" ");
+		for(int i=2;i<num;i++)
+		{	
+			c=a+b;
+			System.out.print(c+" ");
+			a=b;
+			b=c;
+			
+					
+		}
+		
+
+	}
+
+}
